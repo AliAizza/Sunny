@@ -1,0 +1,32 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Barlow:wght@600&family=Fraunces:opsz,wght,SOFT@9..144,100..900,50&display=swap');
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    overflow-x: hidden;
+}
+
+.tofilter:hover{
+    filter: brightness(0) invert(1);
+}
+
+.triangle{
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-top: 2rem solid transparent;
+    border-bottom: 2rem solid transparent;
+    border-right: 2rem solid #FFFCF8;
+    top: -1.8rem;
+    right: 0;
+}
