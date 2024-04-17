@@ -10,7 +10,7 @@ import hamb from '/public/assets/icon-hamburger.svg';
 const Header = () => {
     const [isActive, setIsActive] = useState(false);
     return (
-        <div className='flex justify-between pl-10 pr-12 pt-2.87rem items-center medium:pt-8 medium:px-5per'>
+        <div className='flex justify-between pl-10 pr-12 pt-8 items-center medium:pt-8 medium:px-5per'>
             <Image src={logo} alt='logo' width={170} className='medium:w-7.5rem'/>
             <div className={`flex text-white items-center gap-2.94rem duration-700 medium:flex-col medium:absolute medium:right-5per ${isActive ? 'medium:top-7.5rem' : 'medium:top-minus20rem'} medium:bg-menuBackground medium:text-textGrey medium:text-xl medium:w-90per medium:py-10 medium:px-24 medium:gap-8`}>
                 <p className='cursor-pointer font-sec font-semibold text-1.125rem'>About</p>
