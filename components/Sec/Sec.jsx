@@ -4,7 +4,7 @@ import Image from 'next/image';
 const Sec = ({dir, title, paragraph, image}) => {
     return (
         <section className={`flex ${dir === 'row' ? 'flex-row' : 'flex-row-reverse'} 1000:flex-col-reverse`}>
-            <div className='flex items-center justify-center w-full flex-1 1000:w-auto 1000:h-full 1000:py-12 1000:text-center'>
+            <div className='bg-menuBackground py-9.85rem flex items-center justify-center w-full flex-1 1000:w-auto 1000:h-full 1000:py-12 1000:text-center'>
                 <div className='w-27.8125rem'>
                     <h1 className='text-2.5rem font-body font-black text-clientsnames 500:text-2rem'>{title}</h1>
                     <p className='text-1.125rem font-sec font-semibold tracking-rev text-textGrey my-8 1000:my-6'>{paragraph}</p>

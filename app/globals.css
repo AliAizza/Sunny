@@ -16,6 +16,11 @@ body{
     overflow-x: hidden;
 }
 
+.tofilter{
+    cursor: pointer;
+    transition: .3s;
+}
+
 .tofilter:hover{
     filter: brightness(0) invert(1);
 }

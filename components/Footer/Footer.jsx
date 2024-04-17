@@ -18,10 +18,10 @@ const Footer = () => {
                 <p className='cursor-pointer'>Projects</p>
             </div>
             <div className='flex gap-6'>
-                <Image src={facebook} alt='social' width={20} height={20} className='tofilter cursor-pointer duration-150'></Image>
-                <Image src={instagram} alt='social' width={20} height={20} className='tofilter cursor-pointer duration-150'></Image>
-                <Image src={twitter} alt='social' width={20} height={20} className='tofilter cursor-pointer duration-150'></Image>
-                <Image src={pinterest} alt='social' width={20} height={20} className='tofilter cursor-pointer duration-150'></Image>
+                <Image src={facebook} alt='social' width={20} height={20} className='tofilter'></Image>
+                <Image src={instagram} alt='social' width={20} height={20} className='tofilter'></Image>
+                <Image src={twitter} alt='social' width={20} height={20} className='tofilter'></Image>
+                <Image src={pinterest} alt='social' width={20} height={20} className='tofilter'></Image>
             </div>
         </div>
     );
